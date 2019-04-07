@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <UserSecretsId>5abdc219-62fa-4a8c-9e79-b103e8278c89</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Landing\" />
+    <Folder Include="Views\Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Tables\DataTables.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>

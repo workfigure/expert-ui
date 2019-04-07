@@ -1,0 +1,531 @@
+﻿
+@{
+    ViewData["Title"] = "OHBD Innovation Platform";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2 align ="center">OHBD Innovation Experts List</h2>
+        <ol class="breadcrumb">
+            @*<li class="breadcrumb-item">
+                <a href="@Url.Action("Dashboard_1", "Dashboards")">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a>Experts</a>
+            </li>
+            <li class="active breadcrumb-item">
+                <strong>Experts List</strong>
+            </li>*@
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+
+                    <button type="button" class="btn btn-w-m btn-primary" >Add</button>
+
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+
+                   
+                    <div class="ibox-tools">
+                        <button type="button" class="btn btn-w-m btn-primary">Delete</button>
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+
+                    <table class="table table-striped table-bordered table-hover dataTables-example">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Area Specialization</th>
+                                <th>Title</th>
+                                <th>Email Address</th>
+                                <th>Volunteer Time</th>
+
+                            </tr>
+                        @*<td>
+                            <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                        </td>*@
+                        </thead>
+                        <tbody>
+                            <tr class="gradeX">
+                                <td>Tiruneh K Hailemariam</td>
+                                <td>
+                                    PhD in Molecular Diagnostics/IVD
+                                </td>
+                                <td>Senior Clinical Project Leader - Molecular Diagnostics at BD Life Sciences, New York, USA</td>
+                                <td class="center">tiruneh@gmail.com</td>
+                                <td class="center">2-3 weeks, June-July or December 2019</td>
+                            </tr>
+                            <tr class="gradeC">
+                                <td>Tesfaye Baye</td>
+                                <td>
+                                    PhD in Population and Statistical Genomics
+                                </td>
+                                <td>Professor, Department of Pediatrics, University of Cincinnati, USA</td>
+                                <td class="center">mershate@uc.edu</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Getu Hailu</td>
+                                <td>
+                                    PhD in Economics
+                                </td>
+                                <td>Professor of Economics, University of Guelph, Canada</td>
+                                <td class="center">getu.hailu@gmail.com</td>
+                                <td class="center">2-3 weeks (June, August, December for 2019)</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Teferi Yeshitela</td>
+                                <td>
+                                    PhD in Horticulture
+                                </td>
+                                <td>Commercial Development Specialist , OMNIA, Australia</td>
+                                <td class="center">Teferi.Belayneh@omnia.net.au</td>
+                                <td class="center">2 weeks (Dec 10-Dec 25 for 2019)</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Yifru Teklu</td>
+                                <td>PhD in Plant Breeding and Genetics</td>
+                                <td>Maize Genetic Development Scientist, Syngenta, USA</td>
+                                <td class="center">tyifru@yahoo.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Girma Tabor</td>
+                                <td>PhD in Plant Molecular Pathology</td>
+                                <td>Plant Molecular Pathologist, DuPont Pioneer, USA</td>
+                                <td class="center">girmatabor@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Fufa H. Birru</td>
+                                <td>PhD in  Plant Breeding and Genetics</td>
+                                <td>Commercial Breeder, Monsanto, USA</td>
+                                <td class="center">fufaburru@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Neway Mengistu</td>
+                                <td>PhD in  Plant Breeding and Genetics</td>
+                                <td>Corn Breeder and Geneticist, DuPont Pioneer, USA</td>
+                                <td class="center">nmengistu2006@yahoo.com</td>
+                                <td class="center">2 weeks from November 25 to December 30 for 2019</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Berisso Kebede Demo</td>
+                                <td>PhD in Quantitative Genetics and Plant Breeding</td>
+                                <td>Research Scientist, University of Alberta, Canada</td>
+                                <td class="center">beriso44@hotmail.com</td>
+                                <td class="center">2 weeks from June 15 to July 15 2019</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                                <td>Melaku Degefu Mekonnen</td>
+                                <td>
+                                    MSc in Plant Molecular Breeding and Genetics
+                                </td>
+                                <td>Lettuce Breeding Project Lead, Syngenta, USA</td>
+                                <td class="center">Melaku.Mekonnen@syngenta.com</td>
+                                <td class="center">1-2 weeks (End of Novermber and early December for 2019)</td>
+                            </tr>
+                            <tr class="gradeC">
+                                <td>Hussien Hamda Komicha</td>
+                                <td>
+                                    PhD in Economics (macroeconomics)
+                                </td>
+                                <td>Chief Economist, Government of Manitoba, and Adjunct Professor at the University of Winnipeg, Canada</td>
+                                <td class="center">Komichahh@gmail.com</td>
+                                <td class="center">3 weeks in July, August or December 2019</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>ZEWDIE ALEMAYEHU ABATE</td>
+                                <td>
+                                    PhD in Quantitative Genetics and Plant Breeding
+                                </td>
+                                <td>Plant Breeder, PANAMERICAN SEED COMPANY, USA</td>
+                                <td class="center">zaabate2011@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Ayenachew Bezawork-Geleta</td>
+                                <td>
+                                    PhD in Human Molecular Physiology
+                                </td>
+                                <td>Research Scientist, School of Medical Science, Griffith University , Australia</td>
+                                <td class="center">a.bezawork-geleta@griffith.edu.au</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Tefera A. Mekuria</td>
+                                <td>PhD in Plant Virology</td>
+                                <td>Virologist, Wonderful Laboratories, USA</td>
+                                <td class="center">Tasamenew03@yahoo.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Desalegn Debelo</td>
+                                <td>PhD in Plant Genetics, Genomics, and Breeding</td>
+                                <td>Research Scientist, Kansas State University, USA</td>
+                                <td class="center">ddebelo@yahoo.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Daniel Kassahun Waktola</td>
+                                <td>PhD in Remote Sensing and Geographic Information System (GIS)</td>
+                                <td>Asso Professor, Los Angeles Mission College, USA</td>
+                                <td class="center">WaktolDK@lamission.edu</td>
+                                <td class="center">Last 2-3 Weeks of December, 2019 </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Fantu Nisrane</td>
+                                <td>PhD in Economics</td>
+                                <td>Research Scientist, International Food Policy Research Institute, Ethiopia</td>
+                                <td class="center">fantish@hotmail.com</td>
+                                <td class="center">2 weeks, any time after July 2009</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                                <td>Yoseph Beyene</td>
+                                <td>
+                                    PhD in Plant Breeding and Genetics
+                                </td>
+                                <td>Maize Breeder and Geneticist, CIMMYT, Kenya</td>
+                                <td class="center">Y.Beyene@CGIAR.ORG</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeC">
+                                <td>Tezera Wolabu Watira</td>
+                                <td>
+                                    PhD in Plant Biotechnology - CRISPR/Cas9 plant Genome editing
+                                </td>
+                                <td>Postdoctoral Fellow Researcher, Noble Research Institute, USA</td>
+                                <td class="center">wolabutezera@gmail.com</td>
+                                <td class="center">3-4 weeks/year (in February, March or April)</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Desalegn Chemeda</td>
+                                <td>
+                                    PhD in Water Resources Engineering
+                                </td>
+                                <td>Engineer, South-man Engineering, Canada</td>
+                                <td class="center">desalegnchemeda@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Meklit Tariku</td>
+                                <td>
+                                    PhD in Spatial Statistics and GIS
+                                </td>
+                                <td>Data Scientist, IITA, Kenya</td>
+                                <td class="center">M.Chernet@cgiar.org</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Edilegnaw Wale Zegeye</td>
+                                <td>PhD in Agricultural and Natural Resources Economics</td>
+                                <td>Professor of Agricultural and Natural Resources Economics, University of KwaZulu-Natal, South Africa</td>
+                                <td class="center">walee@ukzn.ac.za</td>
+                                <td class="center">2-3 weeks/year (December/January)</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Yifru Teklu</td>
+                                <td>Plant Breeding and Genetics</td>
+                                <td>Maize Genetic Development Scientist, Syngenta</td>
+                                <td class="center">tyifru@yahoo.com</td>
+                                <td class="center">4 weeks/year, Mid November - December 2019</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Getu Beyene Duguma</td>
+                                <td> PhD in Plant Molecular Biology and Biotechnology</td>
+                                <td>Senior Research Scientist, Donald Danforth Plant Science Center</td>
+                                <td class="center">getubeyene@yahoo.com</td>
+                                <td class="center">2-3 weeks/ year, any time</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Alemu Gonsamo</td>
+                                <td>PhD in Remote Sensing</td>
+                                <td>Research Scientist, University of Toronto</td>
+                                <td class="center">gonsamoa@geog.utoronto.ca</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Tesfaye Wubet</td>
+                                <td>PhD in Molecular Microbial Ecology</td>
+                                <td>Senior Scientist in Environmental Genomics, Helmholtz Centre for Environmental Research, Germany</td>
+                                <td class="center">tesfaye.wubet@ufz.de</td>
+                                <td class="center">2-3 weeks/ year, any time</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Difabachew Belay</td>
+                                <td>PhD in Entomology</td>
+                                <td>Research Scientist, Syngenta</td>
+                                <td class="center">Dife.Kondidie@syngenta.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Samuel Tekeste Workenhe</td>
+                                <td>PhD in Immunology</td>
+                                <td>Assistant Professor, McMaster Immunology Research Center, McMaster University</td>
+                                <td class="center">samuelworkenhe@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+
+                            <tr class="gradeA">
+                                <td>Demissew S. Desta</td>
+                                <td>PhD Candidate in Plant Biotechnology</td>
+                                <td>University of Ottawa, Ottawa, ON, Canada</td>
+                                <td class="center">dmsertse@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Asrat Amele</td>
+                                <td>PhD in Plant Breeding and Genetics</td>
+                                <td>Plant Breeder, IITA, Abuja, Nigeria</td>
+                                <td class="center">a.amele@cgiar.org</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Zerihun Abebe Demissie</td>
+                                <td>PhD in Biochemistry and Molecular Biology (Plant and fungi)</td>
+                                <td>Research Associate, National Research Council of Canada, Ottawa, ON, Canada</td>
+                                <td class="center">zerishabe02@yahoo.com or zerishabe@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Shiferaw Abate Gizaw</td>
+                                <td>PhD in Crop Science (Plant Breeding and Genetics)</td>
+                                <td>Manager of Data Applications, Sakata Seed America, USA</td>
+                                <td class="center">zSgizaw@sakata.com</td>
+                                <td class="center">3 weeks between September, November and December, 2019 </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Zerihun Gudeta Alemu</td>
+                                <td>PhD in Economics</td>
+                                <td>Chief Country Economist African Development Bank/ Affiliate Professor University of North West Potchestrom Campus South AfricaA</td>
+                                <td class="center">alemu_zerihun@yahoo.co.uk</td>
+                                <td class="center">1st & 2nd weeks of December</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Muzeyen Hassen Esmael</td>
+                                <td>MSc in Computer Network Engineering</td>
+                                <td>Instructor, Manitoba Institute of Trades and Technology, Winnipeg, MB, Canada</td>
+                                <td class="center">mzhses@gmail.com</td>
+                                <td class="center">2-3 weeks in July / or 2 weeks in December</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Berhanu Adenew</td>
+                                <td>PhD in Agricultural Economics </td>
+                                <td>Professor of Agriculture Economics, United Arab Emirates University</td>
+                                <td class="center">berhanu.hk@gmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Million Tadege</td>
+                                <td>PhD in Plant Molecular Biology</td>
+                                <td>Assoc Professor, plant functional genomics/biotechnology, Oklahoma State University</td>
+                                <td class="center">mtadege06@gmail.com</td>
+                                <td class="center">2-3 weeks January/June</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Setegn Gebeyehu </td>
+                                <td>PhD in Agronomy</td>
+                                <td>Scientist, International Rice Research Institute, Dar es Salaam, Tanzania</td>
+                                <td class="center">setegn.gebeyehu@gmail.com</td>
+                                <td class="center">2 - 3 weeks in July</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Ayenachew Bezawork-Geleta</td>
+                                <td>PhD in Biochemistry and Molecular Biology </td>
+                                <td>Research Scientist, The University of Melbourne, Australia</td>
+                                <td class="center">b_ayenachew@yahoo.com</td>
+                                <td class="center">2-3 weeks in Nov or dec 2019</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Legesse Kassa Debusho</td>
+                                <td>PhD in Statistics</td>
+                                <td>Associate Professor, University of South Africa, Pretoria, South Africa</td>
+                                <td class="center">lk.debusho@gmail.com</td>
+                                <td class="center">My time is very flexible</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Temesgen Zewotir</td>
+                                <td>PhD in Statistics</td>
+                                <td>Professor, University of KwaZulu Natal, Durban, South Africa</td>
+                                <td class="center">zewotir@ukzn.ac.za</td>
+                                <td class="center">2-3 weeks December/January and 2-3 weeks July</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Mesfin Wondafrash Gossa</td>
+                                <td>PhD in Entomology, MSc in Nematology </td>
+                                <td>Postdoctoral Research Fellow, University of Pretoria, South Africa</td>
+                                <td class="center">mesfinwondafrash@gmail.com </td>
+                                <td class="center">1 week in December 2019</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Sileshi Fanta Melesse</td>
+                                <td>PhD in Statistics</td>
+                                <td>Senior Lecturer  University of KwaZulu Natal, Pietermaritzburg , South Africa</td>
+                                <td class="center">Melesse@ukzn.ac.za</td>
+                                <td class="center">2 weeks in December </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Henok Aberra Molla</td>
+                                <td>MSc in Civil Engineering</td>
+                                <td>Senior Structural Engineer at Davis-Church llc, Atlanta, USA</td>
+                                <td class="center">henoksaba@yahoo.com</td>
+                                <td class="center">TBD </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Kefyalew  Terefe Tegegn</td>
+                                <td>MSc in Engineering Geology</td>
+                                <td>Chief Engineering Geologist, Council for Geoscience ( CGS) Pretoria, South Africa</td>
+                                <td class="center">ktegegn@geoscience.org.za</td>
+                                <td class="center">2-3 weeks in December </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Firehiwot Birhane Eshetu</td>
+                                <td>PhD Candidate in Genetics </td>
+                                <td>Forestry and Agricultural Biotechnology Institute(FABI), University of Pretoria, South Africa </td>
+                                <td class="center">firehiwot1@gmail.com</td>
+                                <td class="center">1-2 weeks late December 2019/middle of January 2020</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Berhanu Amsalu</td>
+                                <td>PhD in Plant Science </td>
+                                <td>National lowland pulses research, Ethiopian Institute of Agricltural Research (EIAR), Ethiopia  </td>
+                                <td class="center">berhanufenta@gmail.com </td>
+                                <td class="center">1-2 weeks, September/Octber </td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Welday Hailu Teklehaimanot</td>
+                                <td>PhD in Food Science</td>
+                                <td>Assistant Professor, Hawassa University, College of Agriculture, School of Human Nutrition, Food Science and Technology</td>
+                                <td class="center">welday_hailu@yahoo.com</td>
+                                <td class="center">1-2 weeks, July/Agust</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Tesfaye Kebede Guemessa</td>
+                                <td>Dr.-Ing. Civil and Environmental </td>
+                                <td>Senior Water Resources Engineer, Manitoba Government </td>
+                                <td class="center">tesfaye_kg@yahoo.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Bereket Abebe Assefa</td>
+                                <td>PhD in Biosystems Engineering </td>
+                                <td>Senior Environmental Engineer, Government of Manitoba, Canada </td>
+                                <td class="center">bereketabebe@hotmail.com</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Mulat Demeke</td>
+                                <td>PhD Agricultural Economics </td>
+                                <td>Researcher Food and Agriculrure organization </td>
+                                <td class="center">mulatdemeke08@gmail.com</td>
+                                <td class="center">2 weeks in December</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Daniel Kassahun</td>
+                                <td>PhD in Remote Sensing and Geoinformatics  </td>
+                                <td>Professor in the Dept of Geography, Los Angeles Mission College </td>
+                                <td class="center">waktoldk@lamission.edu</td>
+                                <td class="center">TBD</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Surafel Luleseged Tilahun</td>
+                                <td>PhD in Applied and Computational Mathematics  </td>
+                                <td>Senior Lecturer, University of Zululand, South Africa </td>
+                                <td class="center">Tilahuns@unizulu.ac.za (surafelaau@yahoo.com</td>
+                                <td class="center">2 - 3 weeks in December/January and 2 weeks in June/July</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>Name</th>
+                                <th>Area Specialization</th>
+                                <th>Title</th>
+                                <th>Email Address</th>
+                                <th>Volunteer Time</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@section Styles {
+    <environment names="Development,Staging,Production">
+        <link rel="stylesheet" href="~/lib/dataTables/datatables.min.css" />
+    </environment>
+}
+
+@section Scripts {
+    <environment names="Development,Staging,Production">
+        <script src="~/lib/dataTables/datatables.min.js"></script>
+        <script src="~/lib/dataTables/dataTables.bootstrap4.min.js"></script>
+    </environment>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.dataTables-example').DataTable({
+                pageLength: 25,
+                dom: '<"html5buttons"B>lTfgitp',
+                buttons: [
+                    { extend: 'copy' },
+                    { extend: 'csv' },
+                    { extend: 'excel', title: 'ExampleFile' },
+                    { extend: 'pdf', title: 'ExampleFile' },
+
+                    {
+                        extend: 'print',
+                        customize: function (win) {
+                            $(win.document.body).addClass('white-bg');
+                            $(win.document.body).css('font-size', '10px');
+
+                            $(win.document.body).find('table')
+                                .addClass('compact')
+                                .css('font-size', 'inherit');
+                        }
+                    }
+                ]
+
+            });
+
+
+        });
+    </script>
+}
