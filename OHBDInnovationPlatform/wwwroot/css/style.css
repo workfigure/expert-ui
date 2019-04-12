@@ -5461,7 +5461,7 @@ video {
 /* MODAL */
 .modal-content {
     background-clip: padding-box;
-    background-color: #FFFFFF;
+    background-color:#9a9d9f;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -6921,7 +6921,10 @@ body.mini-navbar.fixed-sidebar .logo-element {
     max-width: 400px;
     z-index: 100;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 1px;
+    color: #16987e;
+
+
 }
 
 .lockscreen.middle-box {
@@ -6930,7 +6933,9 @@ body.mini-navbar.fixed-sidebar .logo-element {
 }
 
 .loginscreen.middle-box {
-    width: 300px;
+    width: 400px;
+    top: 10px;
+    
 }
 
 .loginColumns {

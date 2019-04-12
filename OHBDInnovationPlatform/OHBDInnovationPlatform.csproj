@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Landing\**" />
+    <Content Remove="Views\Landing\**" />
+    <EmbeddedResource Remove="Views\Landing\**" />
+    <None Remove="Views\Landing\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Landing\" />
     <Folder Include="Views\Pages\" />
   </ItemGroup>
 
