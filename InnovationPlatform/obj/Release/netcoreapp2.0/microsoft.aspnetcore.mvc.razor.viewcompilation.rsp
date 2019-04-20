@@ -1,0 +1,5 @@
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=InnovationPlatform.Web
+--content-root=C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform
+--file=
