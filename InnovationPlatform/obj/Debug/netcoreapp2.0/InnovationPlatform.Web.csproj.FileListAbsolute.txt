@@ -1,0 +1,12 @@
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\bin\Debug\netcoreapp2.0\InnovationPlatform.Web.deps.json
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\bin\Debug\netcoreapp2.0\InnovationPlatform.Web.runtimeconfig.json
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\bin\Debug\netcoreapp2.0\InnovationPlatform.Web.runtimeconfig.dev.json
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\bin\Debug\netcoreapp2.0\InnovationPlatform.Web.dll
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\bin\Debug\netcoreapp2.0\InnovationPlatform.Web.pdb
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\InnovationPlatform.Web.csprojAssemblyReference.cache
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\InnovationPlatform.Web.csproj.CoreCompileInputs.cache
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\InnovationPlatform.Web.AssemblyInfoInputs.cache
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\InnovationPlatform.Web.AssemblyInfo.cs
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\InnovationPlatform.Web.dll
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\InnovationPlatform.Web.pdb
+C:\Yirga\OHBD\InnovationPlatform\InnovationPlatform\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
